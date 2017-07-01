@@ -71,7 +71,7 @@ Approach:
    
    Reducer Receives: 
    
-                  Key: (A,B) Value: [B C D, A C D E]
+                  Key: (A,B) Value: [B C D, A C D E]      // For finding common friends for A and B. Similarly, other pairs will also be recieved by reducer
                   
                   
    Reducer emits:
