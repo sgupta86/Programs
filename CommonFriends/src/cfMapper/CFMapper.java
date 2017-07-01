@@ -21,7 +21,7 @@ public class CFMapper extends Mapper<Object, Text, Text, Text> {
      */
     public void map(Object key, Text value, Context context) throws IOException,
             InterruptedException {
-        StringTokenizer itr = new StringTokenizer(value.toString());
+        StringTokenizer itr = new StringTokenizer(value.toString(), "\n");
         String[] lineArray = null;
         String[] friendsArray = null;
         
@@ -32,7 +32,7 @@ public class CFMapper extends Mapper<Object, Text, Text, Text> {
         	
         	//Sorting the pair of friends
         	for(int i=0; i<friendsArray.length; i++){       		
-        		if(friendsArray[i].compareTo(lineArray[0]) < 0)
+        		if(friendsArray[i].compareTo(lineArray[0]) > 0)
         			friendsPair.set(lineArray[0] + "," + friendsArray[i]);
         		else
         			friendsPair.set(friendsArray[i] + "," + lineArray[0]);
