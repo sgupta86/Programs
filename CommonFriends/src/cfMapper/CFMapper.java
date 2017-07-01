@@ -15,8 +15,8 @@ public class CFMapper extends Mapper<Object, Text, Text, Text> {
     private Text friendsPair = new Text();      //represents pair of friends A,B
     private Text friendsList = new Text();      //represents list of friends B D E
 
-    /* Mapper Class
-     * @args Person with his list of friends
+    /* Map function
+     * Input: Person with his list of friends
      * @see org.apache.hadoop.mapreduce.Mapper#map(KEYIN, VALUEIN, org.apache.hadoop.mapreduce.Mapper.Context)
      */
     public void map(Object key, Text value, Context context) throws IOException,
