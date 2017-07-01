@@ -1,3 +1,4 @@
+/* This class represents the driver class for finding common friends Program*/
 package cfDriver;
 
 import org.apache.hadoop.conf.Configuration;
@@ -10,6 +11,11 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import cfMapper.CFMapper;
 import cfReducer.CFReducer;
 
+/**
+ * Class: CFDriver
+ * @author saurav
+ * 
+ */
 public class CFDriver {
 
 	 public static void main(String[] args) throws Exception {
