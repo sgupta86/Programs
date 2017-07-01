@@ -1,4 +1,4 @@
-Program: Sort String
+#Program: Sort String
 
 This program sorts the list of String
 
@@ -19,7 +19,9 @@ hello
 world
 
 
-Approach:
+
+
+#Approach:
 
 Program uses the Collections.sort function to sort the list
 
