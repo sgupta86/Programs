@@ -1,7 +1,13 @@
+/* This class represents program to sort list of Strings */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Class: SortString
+ * @author saurav
+ *
+ */
 public class SortString {
 
 	public static void main(String[] args) {
