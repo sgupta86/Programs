@@ -6,36 +6,36 @@ Input:
 
 Person: List of Friends
 
-A:B C D
+A: B C D
 
-B:A C D E
+B: A C D E
 
-C:A B D E
+C: A B D E
 
-D:A B C E
+D: A B C E
 
-E:B C D
+E: B C D
 
 
 Output:
 
-Person1,Person2 List of Common Friends
+Person1,Person2 -> List of Common Friends
 
-A,B  C D
+A,B ->  C D
 
-A,C  B D
+A,C -> B D
 
-A,D  B C
+A,D -> B C
 
-B,C  A D E
+B,C -> A D E
 
-B,D  A C E
+B,D -> A C E
 
-B,E  C D
+B,E -> C D
 
-C,D  A B E
+C,D -> A B E
 
-D,E  B C
+D,E -> B C
 
 
 Approach:
