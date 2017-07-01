@@ -35,6 +35,8 @@ B,E  -  C D
 
 C,D  -  A B E
 
+C,E  -  B D
+
 D,E  -  B C
 
 
